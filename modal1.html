@@ -1,0 +1,50 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Model Example</h2>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			Log In
+		</button>
+
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Get Started</h4>
+						<button type="button" class="close" data-desmiss="modal">&times;</button>
+					</div>
+
+					<div class="modal-body">
+						<p>Sign into organize and share your favourite item and shops</p>
+						<button type="button" class="btn btn-primary"><i class="fa fa-facebook-square" style="font-size:24px"></i>Continue with facebook</button><br>
+						<button type="button" class="btn btn-danger"><i class="fa fa-google-plus" style="font-size:24px"></i>Continue with gmail</button>
+						<br><br>
+						<h3>OR</h3><br>
+						<p> Enter your name:</p>
+						<input type="text" name="name">
+						<br>
+						<p>We'll never post without your permission</p><br>
+						<button type="button" class="btn btn-primary">Continue</button><br>
+						<p>Have an account?<a href="#">Sign in</a></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-desmiss="modal">ok</button>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
